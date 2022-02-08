@@ -1,9 +1,3 @@
-{{ config (
-    partition_by={
-        "field": "creation_date",
-        "data_type": "date"
-    }
-)}}
 with source as(
     Select  
         c.id as customer_id,
