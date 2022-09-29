@@ -83,11 +83,11 @@ Based on the high level entities the following ERD diagram was created by using 
 
 The following picture shows the ERD diagram 
 
-**[Entity Relationship Diagram - Northwind Traders](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/d2640d72658e5405ec0eaf955a7308b62e1a382d/snapshots/DABC%20NW-Conceptual.drawio.png)**
+##### **[Entity Relationship Diagram - Northwind Traders](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/d2640d72658e5405ec0eaf955a7308b62e1a382d/snapshots/DABC%20NW-Conceptual.drawio.png)**
 
 
 ### **Data Flow Diagram**
 
 A data flow diagram(DFD), also known as a context diagram, gives us the whole process of what we would be modeling, we can use this to understand quickly how data flows between the different entities. Please note there are various levels of the data flow diagram and as the level increases, it becomes more and more complicated. 
 
-**[Data Flow Diagram - Northwind Traders](https://drive.google.com/file/d/1dhFsa2pbSaqv4hSZeYe-kKnrD0SUrsWY/view?usp=sharing)**
+##### **[Data Flow Diagram - Northwind Traders](https://drive.google.com/file/d/1dhFsa2pbSaqv4hSZeYe-kKnrD0SUrsWY/view?usp=sharing)**
