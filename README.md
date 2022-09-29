@@ -91,3 +91,74 @@ The following picture shows the ERD diagram
 A data flow diagram(DFD), also known as a context diagram, gives us the whole process of what we would be modeling, we can use this to understand quickly how data flows between the different entities. Please note there are various levels of the data flow diagram and as the level increases, it becomes more and more complicated. 
 
 ##### **[Data Flow Diagram - Northwind Traders](https://drive.google.com/file/d/1dhFsa2pbSaqv4hSZeYe-kKnrD0SUrsWY/view?usp=sharing)**
+
+### **Data Warehouse Architechture**
+
+The data is ingested into the data lake using a Big query. And the datasets as defined above were made.
+
+The ingested data forms a ***Data Lake***. 
+
+The data was processed in the following manner:
+
+***Bigquery Datalake*** > ***Staging Layer*** > ***Dimensional Data Warehouse Layer*** > ***Staging Layer*** > ***Vizualization tool ( Metabase)***
+
+
+### **Dimensional Modelling**
+
+The following steps were followed for the dimensional modeling. 
+
+    1. Select the business process
+
+    2. Declare the grain
+
+    3.  Identify the dimensions
+
+    4. Identify the facts
+
+
+### **Source to Target Mapping**
+
+Source-to-target mapping allows us to understand where the data is coming from and what it will become once it lands at its destination. Because during one transfer of data, data transformation can happen, and we need to keep track of this transformation. The first transfer of data will be from Cloud SQL to Data lake. 
+
+The next step is to map the source-to-target from staging to the data lake. The dim date dimension did not exist, and we created it manually by writing a Query in Bigquery.
+
+
+## **Transformations using Data Build Tool (dbt)**
+
+dbt is an essential tool for analytics engineers. It allows the engineer to do analytical transformation, enabling them to write select statements without having to write DDL statements.
+
+And dbt_project contains all the information about the project. Different parts of your configuration files. It tells how to operate your project. 
+
+***dbt_project :*** 
+is a collection of  SQL and Yamal files that dbt uses to do the data transformation. 
+
+***Macros:*** These Are pieces of code you can reuse many times.
+
+***Jinja:*** Jinja is a templating language.
+
+***Models:*** The model files contain SQL files, and these SQL files are where the transformation happens. And we can create our models in a very granular way.
+
+***test:***test is a type of assertion. Assertion allows you to test your assumptions about your data or SQL file. dbt provides two ways of testing 
++ Singular testing: is done by writing an SQL query that basically will return failing records. 
++ Generic testing: these are something that we can keep reusing over and over again. This can be something like a NOT NULL test or a uniqueness test.
+
+
+
+### How was the data transformed in this project? 
+
+The following steps were followed:
+
+    1. The ERD diagrams were made based on high-level entities.
+    2. Then, from the bigquery data lake, the staging tables were made using dbt, as shown in the link below.
+    3. From the Staging Tables, transformations were done, and fact and dimension tables were made.
+    4. From Facts and Dimensions, One big Table (OBT) was made.     
+
+
+
+* **[Staging Tables](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/tree/main/models/staging)**  
+* **[Facts & Dimension Tables](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/tree/main/models/warehouse)** 
+* **[Analytics OBT](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/tree/main/models/analytics_obt)**
+
+The above steps and tables depict how the data was transformed using dbt. The next step was making dashboards using Metabase.
+
+
