@@ -58,23 +58,23 @@ data-driven decisions and utilize the data to join their sales data.
 
 The following are the existing **tables** in the OLTP system. 
 
-**Customers:** Customers who buy food from Northwind 
++ **Customers:** Customers who buy food from Northwind 
 
-**Employees:** who work at Northwind
++ **Employees:** who work at Northwind
 
-**Orders:** Sales order transactions taking place between the customers & Northwind
++ **Orders:** Sales order transactions taking place between the customers & Northwind
 
-**Order Details:** Order details for the orders placed by the customers
++ **Order Details:** Order details for the orders placed by the customers
 
-**Inventory transactions:** Tramsactopm details of each Inventory
++ **Inventory transactions:** Tramsactopm details of each Inventory
 
-**Products:** Contains current Northwind products that customers can purchase
++ **Products:** Contains current Northwind products that customers can purchase
 
-**Shippers:** Ships orders from Northwind to customers
++ **Shippers:** Ships orders from Northwind to customers
 
-**Suppliers:** Supply Northwind with required items
++ **Suppliers:** Supply Northwind with required items
 
-**Invoices:** Invoice created for each other
++ **Invoices:** Invoice created for each other
 
 
 ### **Entity Relationship Diagram**
