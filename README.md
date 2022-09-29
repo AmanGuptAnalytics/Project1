@@ -161,4 +161,6 @@ The following steps were followed:
 
 The above steps and tables depict how the data was transformed using dbt. The next step was making dashboards using Metabase.
 
+![Pic 1](data/Metabase Dash1.png)
+
 
