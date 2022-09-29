@@ -161,6 +161,6 @@ The following steps were followed:
 
 The above steps and tables depict how the data was transformed using dbt. The next step was making dashboards using Metabase.
 
-!([Testing the pic](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/main/data/Metabase%20Dash1.png))
+![Testing the pic](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/main/data/Metabase%20Dash1.png)
 
 
