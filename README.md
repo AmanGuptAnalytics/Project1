@@ -132,13 +132,13 @@ And dbt_project contains all the information about the project. Different parts 
 ***dbt_project :*** 
 is a collection of  SQL and Yamal files that dbt uses to do the data transformation. 
 
-***Macros:*** These Are pieces of code you can reuse many times.
++ ***Macros:*** These Are pieces of code you can reuse many times.
 
-***Jinja:*** Jinja is a templating language.
++ ***Jinja:*** Jinja is a templating language.
 
-***Models:*** The model files contain SQL files, and these SQL files are where the transformation happens. And we can create our models in a very granular way.
++ ***Models:*** The model files contain SQL files, and these SQL files are where the transformation happens. And we can create our models in a very granular way.
 
-***test:*** test is a type of assertion. Assertion allows you to test your assumptions about your data or SQL file. dbt provides two ways of testing 
++ ***test:*** test is a type of assertion. Assertion allows you to test your assumptions about your data or SQL file. dbt provides two ways of testing 
 + Singular testing: is done by writing an SQL query that basically will return failing records. 
 + Generic testing: these are something that we can keep reusing over and over again. This can be something like a NOT NULL test or a uniqueness test.
 
