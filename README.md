@@ -179,5 +179,8 @@ A few more Dashes were made in metabase, so that management could make informed 
 
 #### **[Video Explanation](https://www.loom.com/share/8a937f33dc624cfd81903476355bb42a)**
 
+*The video was primarily made for my mentor* 
+
+
 **Have a great day ahead!**
 
