@@ -83,14 +83,14 @@ Based on the high level entities the following ERD diagram was created by using 
 
 The following picture shows the ERD diagram 
 
-##### **[Entity Relationship Diagram - Northwind Traders](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/d2640d72658e5405ec0eaf955a7308b62e1a382d/snapshots/DABC%20NW-Conceptual.drawio.png)**
+##### **![Entity Relationship Diagram - Northwind Traders](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/d2640d72658e5405ec0eaf955a7308b62e1a382d/snapshots/DABC%20NW-Conceptual.drawio.png)**
 
 
 ### **Data Flow Diagram**
 
 A data flow diagram(DFD), also known as a context diagram, gives us the whole process of what we would be modeling, we can use this to understand quickly how data flows between the different entities. Please note there are various levels of the data flow diagram and as the level increases, it becomes more and more complicated. 
 
-##### **[Data Flow Diagram - Northwind Traders](https://drive.google.com/file/d/1dhFsa2pbSaqv4hSZeYe-kKnrD0SUrsWY/view?usp=sharing)**
+##### **![Data Flow Diagram - Northwind Traders](https://drive.google.com/file/d/1dhFsa2pbSaqv4hSZeYe-kKnrD0SUrsWY/view?usp=sharing)**
 
 ### **Data Warehouse Architechture**
 
@@ -161,6 +161,23 @@ The following steps were followed:
 
 The above steps and tables depict how the data was transformed using dbt. The next step was making dashboards using Metabase.
 
-![Testing the pic](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/main/data/Metabase%20Dash1.png)
+The following **Dashboards** were made in grammarly 
+***Dash One**
 
+![Product vs Quantity Sold](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/main/data/Metabase%20Dash1.png)
+
+***Dash Two***
+
+![Sales Overview by city and Sales Agent Tracking](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/main/data/Metabase%20Dash%202.png)
+
+***Dash Three***
+
+
+![Product Inventory](https://github.com/AmanGuptAnalytics/Project-One-Analytics-Engineering-Using-dbt-and-BQ/blob/main/data/Metabase%20Dash%203.png)
+
+A few more Dashes were made in metabase, so that management could make informed decision. If you wanna know a bit more here's the video:
+
+#### **[Video Explanation](https://www.loom.com/share/8a937f33dc624cfd81903476355bb42a)**
+
+**Have a great day ahead!**
 
