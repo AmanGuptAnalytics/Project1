@@ -56,7 +56,6 @@ data-driven decisions and utilize the data to join their sales data.
 
 ## **Data Profiling**
 
-Data profiling is a technology for discovering and investigating data quality issues, such as duplication, lack of consistency, and lack of accuracy and completeness.
 
 The following are the existing **tables** in the OLTP system. 
 
