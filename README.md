@@ -7,7 +7,7 @@ Microsoft creates the database to demonstrate the features of some of its produc
 The database contains all the sales data for Northwind Traders, a fictitious specialty foods export-import company.
 
 * Sales transactions between the company ( NW traders) and its customers.
-* The purchase transactions between Northwind and its suppliers.
+* The purchase transactions between Northwind and its suppliers. 
 
 I used the MySQL version of the Northwind sample database. 
 
