@@ -37,7 +37,7 @@ With source as (
         e.web_page          as employee_web_page,
         e.notes             as employee_notes,
         e.attachments       as employee_attachments,
-        p.product_id,
+        p.product_id        as product_id,
         p.product_code,
         p.product_name,
         p.description,
